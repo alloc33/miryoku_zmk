@@ -50,6 +50,13 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 &kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,                         U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp MINUS,                        U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
+// Custom MOUSE layer - WASD on left for movement while mousing (used by both BASE and TAP)
+#define MIRYOKU_LAYER_MOUSE \
+&kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
+&kp A,             &kp S,             &kp D,             &kp F,             &kp G,             U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            U_NU,              \
+&kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             U_WH_L,            U_WH_D,            U_WH_U,            U_WH_R,            U_NU,              \
+U_NP,              U_NP,              &kp LSHFT,         &kp SPACE,         &kp LCTRL,         U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
+
 // Gaming TAP layer optimized for Factorio - Direct hotbar access
 // Left: QWERTY actions | Right: 1-0 hotbar (0=MOUSE hold) + ALT/ESC/P(FUN)/L/O
 #define MIRYOKU_LAYER_TAP \
