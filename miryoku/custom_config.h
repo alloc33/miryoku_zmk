@@ -50,3 +50,11 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 &kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,                         U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp MINUS,                        U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
+// Gaming TAP layer optimized for Factorio - Direct hotbar access
+// Left: QWERTY actions | Right: 1-0 hotbar (0=MOUSE hold) + ALT/ESC/P(FUN)/L/O
+#define MIRYOKU_LAYER_TAP \
+&kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp N1,            &kp N2,            &kp N3,            &kp N4,            &kp N5,            \
+&kp A,             &kp S,             &kp D,             &kp F,             &kp G,             &kp N6,            &kp N7,            &kp N8,            &kp N9,            U_LT(U_MOUSE, N0), \
+&kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp LALT,          &kp ESC,           U_LT(U_FUN, P),    &kp L,             &kp O,             \
+U_NP,              U_NP,              &kp LSHFT,         &kp SPACE,         &kp LCTRL,         &kp TAB,           &kp RET,           &u_to_U_BASE,      U_NP,              U_NP
+
