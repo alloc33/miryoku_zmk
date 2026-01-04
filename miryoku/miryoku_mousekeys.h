@@ -3,11 +3,12 @@
 
 #pragma once
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1250
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 7500
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
+#define U_MOUSE_MOVE_MAX 7500
 #define U_MOUSE_MOVE_EXPONENT 1
-#define U_MOUSE_MOVE_TIME 1500
+#define U_MOUSE_MOVE_TIME 1000
 #define U_MOUSE_MOVE_DELAY 0
 #define U_MOUSE_SCROLL_EXPONENT 1
 #define U_MOUSE_SCROLL_TIME 5000
@@ -16,7 +17,6 @@
 #define U_BTN1 &mkp MB1
 #define U_BTN2 &mkp MB2
 #define U_BTN3 &mkp MB3
-
 #define U_MS_D &mmv MOVE_DOWN
 #define U_MS_L &mmv MOVE_LEFT
 #define U_MS_R &mmv MOVE_RIGHT
