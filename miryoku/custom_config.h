@@ -50,7 +50,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 &kp GRAVE,         &kp N1,            &kp N2,            &kp N3,            &kp BSLH,                         U_NA,              &u_to_U_NUM,       &u_to_U_NAV,       &kp RALT,          U_NA,              \
 U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp MINUS,                        U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
-// Custom MOUSE layer - WASD on left for movement while mousing (used by both BASE and TAP)
+// Custom MOUSE layer (factorio optimized) - WASD on left for movement while mousing (used by both BASE and TAP)
 #define MIRYOKU_LAYER_MOUSE \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             U_RDO,             U_PST,             U_CPY,             U_CUT,             U_UND,             \
 &kp A,             &kp S,             &kp D,             &kp F,             &kp G,             U_MS_L,            U_MS_D,            U_MS_U,            U_MS_R,            U_NU,              \
