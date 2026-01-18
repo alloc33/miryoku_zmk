@@ -57,11 +57,10 @@ U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp 
 &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             U_WH_L,            U_WH_D,            U_WH_U,            U_WH_R,            U_NU,              \
 U_NP,              U_NP,              &kp LSHFT,         &kp SPACE,         &kp LCTRL,         U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
-// Gaming TAP layer optimized for Factorio - Direct hotbar access
-// Left: QWERTY actions | Right: 1-0 hotbar (0=MOUSE hold) + ALT/ESC/P(FUN)/L/O
+// Standard TAP layer - pure QWERTY without home row mods, with exit to BASE
 #define MIRYOKU_LAYER_TAP \
-&kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp N1,            &kp N2,            &kp N3,            &kp N4,            &kp N5,            \
-&kp A,             &kp S,             &kp D,             &kp F,             &kp G,             &kp N6,            &kp N7,            &kp N8,            &kp N9,            U_LT(U_MOUSE, N0), \
-&kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp LALT,          &kp ESC,           U_LT(U_FUN, P),    &kp L,             &kp O,             \
-U_NP,              U_NP,              &kp LSHFT,         &kp SPACE,         &kp LCTRL,         &kp TAB,           &kp RET,           &u_to_U_BASE,      U_NP,              U_NP
+&kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
+&kp A,             &kp S,             &kp D,             &kp F,             &kp G,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
+&kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
+U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &u_to_U_BASE,      U_NP,              U_NP
 
