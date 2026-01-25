@@ -57,10 +57,10 @@ U_NP,              U_NP,              &kp DOT,           &kp N0,            &kp 
 &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             U_WH_L,            U_WH_D,            U_WH_U,            U_WH_R,            U_NU,              \
 U_NP,              U_NP,              &kp LSHFT,         &kp SPACE,         &kp LCTRL,         U_BTN2,            U_BTN1,            U_BTN3,            U_NP,              U_NP
 
-// TAP layer - pure QWERTY, G=NUM(hold) for hotbar numbers, exit to BASE
+// TAP layer - pure QWERTY, G=NUM(hold), left thumbs: ESC/SHIFT, SPACE, TAB/CTRL
 #define MIRYOKU_LAYER_TAP \
 &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp A,             &kp S,             &kp D,             &kp F,             U_LT(U_NUM, G),    &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
 &kp Z,             &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
-U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &u_to_U_BASE,      U_NP,              U_NP
+U_NP,              U_NP,              U_MT(LSHFT, ESC),  &kp SPACE,         U_MT(LCTRL, TAB),  &kp RET,           &kp BSPC,          &u_to_U_BASE,      U_NP,              U_NP
 
