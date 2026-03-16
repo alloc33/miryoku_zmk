@@ -64,3 +64,10 @@ U_NP,              U_NP,              &kp LSHFT,         &kp SPACE,         &kp 
 U_MT(LALT, Z),     &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
 U_NP,              U_NP,              U_MT(LSHFT, ESC),  &kp SPACE,         U_MT(LCTRL, TAB),  &kp RET,           &kp BSPC,          &u_to_U_BASE,      U_NP,              U_NP
 
+// EXTRA layer - same as TAP but with plain ESC, SPACE, TAB on left thumbs
+#define MIRYOKU_LAYER_EXTRA \
+&kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
+&kp A,             &kp S,             &kp D,             &kp F,             U_LT(U_NUM, G),    &kp H,             &kp J,             &kp K,             &kp L,             &kp SQT,           \
+U_MT(LALT, Z),     &kp X,             &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp SLASH,         \
+U_NP,              U_NP,              &kp ESC,           &kp SPACE,         &kp TAB,           &kp RET,           &kp BSPC,          &u_to_U_BASE,      U_NP,              U_NP
+
